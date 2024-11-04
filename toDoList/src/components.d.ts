@@ -8,14 +8,8 @@ export {}
 declare module 'vue' {
   export interface GlobalComponents {
     AppFooter: typeof import('./components/AppFooter.vue')['default']
-    CreateTodo: typeof import('./components/createTodo.vue')['default']
     HelloWorld: typeof import('./components/HelloWorld.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
-    Teste: typeof import('./components/teste.vue')['default']
-    TodoGroup: typeof import('./components/TodoGroup.vue')['default']
-    TodoList: typeof import('./components/TodoList.vue')['default']
-    ToDoList: typeof import('./components/ToDoList.vue')['default']
-    ToDoList1: typeof import('./components/ToDoList1.vue')['default']
   }
 }
