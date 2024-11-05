@@ -5,7 +5,7 @@ import { TodoStatus } from '@/types';
 </script>
 
 <template>
-    <div>
+    <div class="group-wrapper">
         <TodoGroup :status="TodoStatus.Pending"/>
         <TodoGroup :status="TodoStatus.Inprogress"/>
         <TodoGroup :status="TodoStatus.Completed"/>
@@ -13,4 +13,10 @@ import { TodoStatus } from '@/types';
 </template>
 
 <style>
+.group-wrapper {
+    display: flex;
+    justify-content:space-around;
+    gap: 20px;
+    border-radius: 5px;
+}
 </style>
