@@ -1,7 +1,8 @@
 <script setup lang="ts">
 
-import type { TodoStatus, Todo } from "@/types"
+import type { TodoStatus, Todo } from "@/components/types"
 import { reactive, ref } from 'vue';
+
 import useTodo from "@/store/useTodo";
 
 const displayForm = ref(false);

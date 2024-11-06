@@ -18,5 +18,7 @@ declare module 'vue' {
     TodoList: typeof import('./components/TodoList.vue')['default']
     ToDoList: typeof import('./components/ToDoList.vue')['default']
     ToDoList1: typeof import('./components/ToDoList1.vue')['default']
+    TodoListCards: typeof import('./components/TodoListCards.vue')['default']
+    UseTodo: typeof import('./components/useTodo.vue')['default']
   }
 }

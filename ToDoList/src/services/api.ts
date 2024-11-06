@@ -1,8 +1,7 @@
-// src/services/api.ts
-import axios from 'axios';
+import axios from "axios";
 
 const api = axios.create({
-  baseURL: 'http://localhost:3000', // Substitua pela URL correta da API
+    baseURL:"https://backend-auto-estudo-20242-production.up.railway.app/",
 });
 
-export default api;
+export default api

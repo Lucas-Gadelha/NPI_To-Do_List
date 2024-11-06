@@ -1,4 +1,4 @@
-import { TodoStatus, type Todo } from "@/types";
+import { TodoStatus, type Todo } from "@/components/types";
 import { reactive, computed } from "vue";
 
 interface TodoStore {

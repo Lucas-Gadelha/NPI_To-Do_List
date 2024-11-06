@@ -1,7 +1,7 @@
 <script setup lang="ts">
 
 import useTodo from '@/store/useTodo';
-import { TodoStatus} from '@/types';
+import { TodoStatus} from '@/types/types';
 import Draggable from 'vuedraggable';
 import createTodo from './createTodo.vue'; 
 
